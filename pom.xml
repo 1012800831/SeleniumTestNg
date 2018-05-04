@@ -1,0 +1,24 @@
+<project >
+<modelVersion>4.0.0</modelVersion>
+
+<groupId>arron</groupId>
+<artifactId>wang</artifactId>
+<version>1.0-SNAPSHOT</version>
+
+<name>TestngSelenium</name>
+<url>http://maven.apache.org</url>
+
+<properties>
+    <testng.version>6.8.7</testng.version>
+    <selenium.version>3.4.0</selenium.version>
+</properties>
+
+<dependencies>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>${selenium.version}</version>
+    </dependency>
+</dependencies>
+</project>
+
